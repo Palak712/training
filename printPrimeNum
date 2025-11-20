@@ -1,0 +1,21 @@
+#include <stdio.h>
+
+void main() {
+    int i,j,c,n;
+    printf("Enter a number:\n");
+    scanf("%d",&n);
+    for(j=1;j<=n;j++)
+    {
+        c=1;
+        for(i=2;i<j;i++)
+        {
+            if(j%i==0){
+                c++;
+            }
+        }
+        if(c<=1)
+       {
+            printf("%d\n",j);
+        }
+    }
+}
