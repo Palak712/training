@@ -1,3 +1,6 @@
+// Q11. Longest Palindromic Substring
+// Example: Input:"babad"
+// Output:"bab"or"aba"
 #include <stdio.h>
 #include <string.h>
 
